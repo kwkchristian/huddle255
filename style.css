@@ -1,0 +1,57 @@
+
+
+body{
+    margin: 0;
+    font-family: poppins;
+}
+.containner{
+    background-color: hsl(257, 40%, 49%);
+    height: 100vh;
+    background-image: url("./bg-desktop.svg");
+
+}
+
+.header{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: white;
+}
+
+.heropage{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100PX;
+    gap: 50px;
+    align-items: center;
+}
+.heroimagebox{
+    img{
+        width: 500px;
+    }
+}
+.herotextbox{
+    color: white;
+    h1{
+        font-size: 40px;
+    }
+    button{
+        padding: 12px 20px;
+        font-family: poppins;
+        border-radius: 30px;
+        border: none;
+        color: hsl(257, 40%, 49%);
+    }
+}
