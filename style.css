@@ -1,4 +1,13 @@
 
+/* @media only screen and (max-width:1000px){
+      .containner{
+        background-color: red;
+      }
+      h1{
+        color:blue
+      }
+} */
+
 
 body{
     margin: 0;
@@ -55,3 +64,5 @@ body{
         color: hsl(257, 40%, 49%);
     }
 }
+
+
